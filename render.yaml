@@ -1,5 +1,6 @@
 databases:
-  - name: render_demo
+  - name: postgres
+    ipAllowList: []
     databaseName: render_demo
     user: render_demo
     plan: free
